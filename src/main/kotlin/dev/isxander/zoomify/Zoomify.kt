@@ -41,7 +41,7 @@ object Zoomify : ClientModInitializer {
     var previousZoomDivisor = 1.0
         private set
 
-    const val maxScrollTiers = 30
+    const val maxScrollTiers = 100
     private var scrollSteps = 0
 
     private var shouldPlaySound = false
